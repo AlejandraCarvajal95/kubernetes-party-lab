@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: rave-master
+  name: rave-master-sebastianrivera
   namespace: techno
   annotations:
     student: "Jhoan Sebastian Rivera"
