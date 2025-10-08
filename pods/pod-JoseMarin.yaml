@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: guitar-hero
+  name: anarquy-bird-josemarin
   namespace: rock
   annotations:
     student: "Jose Adrian Marin"
