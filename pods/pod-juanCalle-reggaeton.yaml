@@ -1,0 +1,17 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: perreador-maximo-JuanCalle
+  namespace: reggaeton
+  annotations:
+    student: "JUAN FERNANDO CALLE SANCHEZ"
+    music: "Reggaeton - Perreo Intenso"
+spec:
+  containers:
+    - name: reggaetonero
+      image: nginx
+  tolerations:
+    - key: "music"
+      operator: "Equal"
+      value: "perreo-intenso"
+      effect: "NoSchedule"
