@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: sabor-total
+  name: sabor-total-camilomunoz
   namespace: salsa
   annotations:
     student: "Camilo Andres Munoz"
