@@ -4,7 +4,7 @@ metadata:
   name: sabor-total
   namespace: salsa
   annotations:
-    student: "Camilo Andres MUñoz"
+    student: "Camilo Andres Munoz"
     music: "Salsa - Sabor Latino"
 spec:
   containers:
