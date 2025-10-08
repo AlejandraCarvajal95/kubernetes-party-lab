@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: rave-master
+  name: rave-master-juanmafla
   namespace: techno
   annotations:
     student: "Juan Jose Mafla Pacheco"
