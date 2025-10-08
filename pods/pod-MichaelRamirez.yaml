@@ -15,12 +15,3 @@ spec:
       operator: "Equal"
       value: "sabor-latino"
       effect: "NoSchedule"
-  affinity:
-    nodeAffinity:
-      requiredDuringSchedulingIgnoredDuringExecution:
-        nodeSelectorTerms:
-          - matchExpressions:
-              - key: style
-                operator: In
-                values:
-                  - latino
