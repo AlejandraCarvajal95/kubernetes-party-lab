@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: guitar-hero
+  name: guitar-hero-alejandramoya
   namespace: rock
   annotations:
     student: "Maria Alejandra Moya"
