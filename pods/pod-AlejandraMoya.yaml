@@ -1,0 +1,17 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: guitar-hero
+  namespace: rock
+  annotations:
+    student: "Maria Alejandra Moya"
+    music: "Rock - Guitarra Eléctrica"
+spec:
+  containers:
+    - name: rockero
+      image: nginx
+  tolerations:
+    - key: "music"
+      operator: "Equal"
+      value: "guitarra-electrica"
+      effect: "NoSchedule"
