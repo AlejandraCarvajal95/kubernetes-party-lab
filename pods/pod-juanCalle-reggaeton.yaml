@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: perreador-maximo-JuanCalle
+  name: perreador-maximo-juancalle
   namespace: reggaeton
   annotations:
     student: "JUAN FERNANDO CALLE SANCHEZ"
